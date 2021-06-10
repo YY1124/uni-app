@@ -1,0 +1,1989 @@
+{
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [
+        {
+            "path": "pages/start/start",
+            "style": {
+                "navigationBarTitleText": "广告页",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/guide/guide",
+            "style": {
+                "navigationBarTitleText": "引导页",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/party-map/index",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/home/search",
+            "style": {
+                "navigationBarTitleText": "搜索",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/home/swiper-detail",
+            "style": {
+                "navigationBarTitleText": "详情"
+            }
+        },
+        {
+            "path": "pages/learn/index",
+            "style": {
+                "navigationBarTitleText": "学习",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/learn/wsp-zt-detail",
+            "style": {
+                "navigationBarTitleText": "微视频",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/wsp-video-detail",
+            "style": {
+                "navigationBarTitleText": "微视频",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/learn-detail",
+            "style": {
+                "navigationBarTitleText": "详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/wjxx-detail",
+            "style": {
+                "navigationBarTitleText": "文件学习",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/zthc-zt",
+            "style": {
+                "navigationBarTitleText": "专题荟萃专题",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                },
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/learn/zthc-detail",
+            "style": {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/dsjr-detail",
+            "style": {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/preview",
+            "style": {
+                "navigationBarTitleText": "预览",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/external-link",
+            "style": {
+                "navigationBarTitleText": "党章党规",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/zthc-comment",
+            "style": {
+                "navigationBarTitleText": "评论",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/learn/zthc-reply",
+            "style": {
+                "navigationBarTitleText": "回复",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/learn/create-comment",
+            "style": {
+                "navigationBarTitleText": "评论",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/learn/search",
+            "style": {
+                "navigationBarTitleText": "搜索",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/video/index",
+            "style": {
+                "navigationBarTitleText": "视频会议",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/course",
+            "style": {
+                "navigationBarTitleText": "全部课表",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/learn-history",
+            "style": {
+                "navigationBarTitleText": "上课时长统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/home",
+            "style": {
+                "navigationBarTitleText": "培训班",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/experience-detail",
+            "style": {
+                "navigationBarTitleText": "心得体会",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/leave/index",
+            "style": {
+                "navigationBarTitleText": "请假审批",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/course-detail/qr-code",
+            "style": {
+                "navigationBarTitleText": "扫码签到",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/home",
+            "style": {
+                "navigationBarTitleText": "培训班",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/class",
+            "style": {
+                "navigationBarTitleText": "全部班级",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/class-create",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/course-create",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/class",
+            "style": {
+                "navigationBarTitleText": "全部班级",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/course-detail/index",
+            "style": {
+                "navigationBarTitleText": "课程详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/course-detail/sign-status",
+            "style": {
+                "navigationBarTitleText": "签到情况统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/course-detail/sign-status",
+            "style": {
+                "navigationBarTitleText": "签到情况统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/course-detail/index",
+            "style": {
+                "navigationBarTitleText": "课程详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/experience-create",
+            "style": {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/pxb/user/sign-status",
+            "style": {
+                "navigationBarTitleText": "签到情况统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/sign-statistics/index",
+            "style": {
+                "navigationBarTitleText": "考勤统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/sign-statistics/leave-detail",
+            "style": {
+                "navigationBarTitleText": "申请记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pm-select/index",
+            "style": {
+                "navigationBarTitleText": "选择党员",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/course-select/index",
+            "style": {
+                "navigationBarTitleText": "选择课程",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "确定",
+                                "fontSize": "14px"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/pxb/admin/class-type-select",
+            "style": {
+                "navigationBarTitleText": "选择班级类型",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/admin/class-detail",
+            "style": {
+                "navigationBarTitleText": "班级信息",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/pxb/user/class-detail/index",
+            "style": {
+                "navigationBarTitleText": "班级信息",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        //组织生活
+        {
+            "path": "pages/party-life/main/notice/list",
+            "style": {
+                "navigationBarTitleText": "会议通知",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "全部",
+                                "fontSize": "14",
+                                "select": true,
+                                "width": "auto"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-life/main/notice/detail",
+            "style": {
+                "navigationBarTitleText": "会议详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布会议纪要",
+                                "fontSize": "15",
+                                "color": "#FF4D4D",
+                                "width": "auto"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-life/main/notice/create",
+            "style": {
+                "navigationBarTitleText": "会议通知",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/notice/meeting-type-select",
+            "style": {
+                "navigationBarTitleText": "选择会议类型",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/notice/qr-code",
+            "style": {
+                "navigationBarTitleText": "扫码签到",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/list",
+            "style": {
+                "navigationBarTitleText": "组织生活",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/create-txth",
+            "style": {
+                "navigationBarTitleText": "添加谈心谈话",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/notice/sign-status",
+            "style": {
+                "navigationBarTitleText": "参会情况统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/detail-txth",
+            "style": {
+                "navigationBarTitleText": "谈心谈话详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/create-mzpydy",
+            "style": {
+                "navigationBarTitleText": "添加民主评议党员",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/detail-mzpydy",
+            "style": {
+                "navigationBarTitleText": "民主评议党员详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/create-dflzjs",
+            "style": {
+                "navigationBarTitleText": "添加党风廉政建设",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/detail-dflzjs",
+            "style": {
+                "navigationBarTitleText": "党风廉政建设详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/create-zzsh",
+            "style": {
+                "navigationBarTitleText": "添加组织生活会",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/main/meeting/detail-zzsh",
+            "style": {
+                "navigationBarTitleText": "组织生活会详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/list",
+            "style": {
+                "navigationBarTitleText": "三会一课",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "全部",
+                                "fontSize": "14",
+                                "select": true,
+                                "width": "auto"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/party-list", //三会一课首页党员列表
+            "style": {
+                "navigationBarTitleText": "三会一课",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/my-list", //个人中心我的会议列表
+            "style": {
+                "navigationBarTitleText": "我的会议",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "全部",
+                                "fontSize": "14",
+                                "select": true,
+                                "width": "auto"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/mb-select", //三会一课主题模板选择
+            "style": {
+                "navigationBarTitleText": "模板选择",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/bq-leave", //三会一课请假补签申请
+            "style": {
+                "navigationBarTitleText": "请假申请",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/detail", //三会一课详情
+            "style": {
+                "navigationBarTitleText": "会议详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/sign-statistics", //三会一课参会人员统计
+            "style": {
+                "navigationBarTitleText": "会议签到情况统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/create", //发布会议纪要
+            "style": {
+                "navigationBarTitleText": "发布会议纪要",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/create-notice", //发布通知
+            "style": {
+                "navigationBarTitleText": "发布通知",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/year-plan/list", //三会一课年度计划
+            "style": {
+                "navigationBarTitleText": "年度计划",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/year-plan/detail", //三会一课年度计划详情
+            "style": {
+                "navigationBarTitleText": "年度计划详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-life/shyk/year-plan/create", //三会一课年度计划创建
+            "style": {
+                "navigationBarTitleText": "发布计划",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/info/info",
+            "style": {
+                // "navigationBarTitleText": "资讯",
+                // "navigationBarBackgroundColor": "#FFFFFF",
+                // "navigationBarTextStyle": "black"
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/owner/owner",
+            "style": {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+                // "app-plus": {
+                // 	"titleNView": {
+                // 		"buttons": [{
+                // 			"text": "\ue753",
+                // 			"fontSrc": "/static/iconfont/iconfont.ttf",
+                // 			"fontSize": "22px",
+                // 			"color": "#CCC8C8"
+                // 		}]
+                // 	}
+                // }
+            }
+        },
+        {
+            "path": "pages/message/message",
+            "style": {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue602",
+                                "fontSrc": "/static/iconfont/iconfont.ttf",
+                                "fontSize": "20px",
+                                "color": "#333333"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/org-life",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/org-life-summary",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/org-life-summary-detail",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/my-org",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/birthday",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/volunteer",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/party-day",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/party-map",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/party-day-detail",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/exam",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/survey",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/wish",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/ssp",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/old-modules/birthday-jn",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/owner/ownerSetting",
+            "style": {
+                "navigationBarTitleText": "设置",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/login/forgetPwd",
+            "style": {
+                "navigationBarTitleText": "忘记密码",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/login/loginForVcode",
+            "style": {
+                "navigationBarTitleText": "获取验证码",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/login/experience",
+            "style": {
+                "navigationBarTitleText": "申请体验",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/login/vcodeLogin",
+            "style": {
+                "navigationBarTitleText": "验证码登录",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/login/updatePwd",
+            "style": {
+                "navigationBarTitleText": "修改密码",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/login/resetPwd",
+            "style": {
+                "navigationBarTitleText": "重置密码",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/old-modules/web-view-title",
+            "style": {
+                "navigationBarTitleText": "正在打开",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/old-modules/web-view-local",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/owner/about",
+            "style": {
+                "navigationBarTitleText": "关于",
+                "navigationBarBackgroundColor": "#FE5759",
+                "navigationBarTextStyle": "white"
+            }
+        },
+		{
+		    "path": "pages/owner/rule",
+		    "style": {
+		        "navigationBarTitleText": "先锋值规则",
+		        "navigationBarBackgroundColor": "#FFFFFF",
+		        "navigationBarTextStyle": "black"
+		    }
+		},
+        {
+            "path": "pages/info/info-detail",
+            "style": {
+                "navigationBarTitleText": "资讯详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/webview/web-view",
+            "style": {
+                "navigationBarTitleText": ""
+            }
+        },
+        {
+            "path": "pages/owner/ownerInfo",
+            "style": {
+                "navigationBarTitleText": "个人设置",
+                // "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+                // "app-plus": {
+                // 	"titleNView": {
+                // 		"buttons": [{
+                // 			"width": "40px",
+                // 			"text": "保存",
+                // 			"fontSize": "16px",
+                // 			"color": "#000000",
+                // 			"fontWeight":"700"
+                // 		}]
+                // 	}
+                // }
+            }
+        },
+        {
+            "path": "pages/owner/shareApp",
+            "style": {
+                "navigationBarTitleText": "分享APP",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/owner/xuexijilu",
+            "style": {
+                "navigationBarTitleText": "学习记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/message/message-center/tongzhigonggao",
+            "style": {
+                "navigationBarTitleText": "通知公告",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/message/message-center/xitongxiaoxi",
+            "style": {
+                "navigationBarTitleText": "系统消息",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "width": "70px",
+                                "text": "一键已读",
+                                "fontSize": "15px",
+                                "color": "#333333"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/message/message-center/dangfeitixing",
+            "style": {
+                "navigationBarTitleText": "党费提醒",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/message/message-center/huodongtongzhi",
+            "style": {
+                "navigationBarTitleText": "活动通知",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/home",
+            "style": {
+                "navigationBarTitleText": "知识竞赛",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/bank",
+            "style": {
+                "navigationBarTitleText": "在线题库",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race-test",
+            "style": {
+                "navigationBarTitleText": "模拟答题",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race",
+            "style": {
+                "navigationBarTitleText": "正式答题",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race-rank",
+            "style": {
+                "navigationBarTitleText": "排行榜",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race-error",
+            "style": {
+                "navigationBarTitleText": "我的错题",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race-history",
+            "style": {
+                "navigationBarTitleText": "测试记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/bank-learn",
+            "style": {
+                "navigationBarTitleText": "章节学习",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/race-result",
+            "style": {
+                "navigationBarTitleText": "答题结束",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/exam/my-race",
+            "style": {
+                "navigationBarTitleText": "我的试卷",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/message/message-center/message-detail",
+            "style": {
+                "navigationBarTitleText": "消息详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/home/org",
+            "style": {
+                "navigationBarTitleText": "支部详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/home/zsjs",
+            "style": {
+                "navigationBarTitleText": "知识竞赛",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/index",
+            "style": {
+                "navigationBarTitleText": "我的积分",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/detail",
+            "style": {
+                "navigationBarTitleText": "积分详情",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/record",
+            "style": {
+                "navigationBarTitleText": "申报记录",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/create",
+            "style": {
+                "navigationBarTitleText": "积分申报",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/rule-select",
+            "style": {
+                "navigationBarTitleText": "申报依据选择",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/integral/standard",
+            "style": {
+                "navigationBarTitleText": "积分标准",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/home",
+            "style": {
+                "navigationBarTitleText": "主题党日",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/zthd",
+            "style": {
+                "navigationBarTitleText": "主题活动",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/year-plan/list",
+            "style": {
+                "navigationBarTitleText": "年度计划",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/year-plan/detail",
+            "style": {
+                "navigationBarTitleText": "年度计划详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/year-plan/my-plan",
+            "style": {
+                "navigationBarTitleText": "我的发布",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/year-plan/create",
+            "style": {
+                "navigationBarTitleText": "发布计划",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/hyzb",
+            "style": {
+                "navigationBarTitleText": "活跃支部",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/old-modules/zb-detail",
+            "style": {
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleNView": false
+                }
+            }
+        },
+        {
+            "path": "pages/message/message-center/daichuli",
+            "style": {
+                "navigationBarTitleText": "待处理事项",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/message/message-center/detail",
+            "style": {
+                "navigationBarTitleText": "补签申请",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/party-day/detail",
+            "style": {
+                "navigationBarTitleText": "主题活动详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/my-zthd",
+            "style": {
+                "navigationBarTitleText": "我的发布",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/create-summary",
+            "style": {
+                "navigationBarTitleText": "完善会议纪要",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/create-comment",
+            "style": {
+                "navigationBarTitleText": "评论",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "发布",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-day/create-leave",
+            "style": {
+                "navigationBarTitleText": "请假",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "提交",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-day/create-overrule",
+            "style": {
+                "navigationBarTitleText": "驳回",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "确定",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/party-day/sign-status",
+            "style": {
+                "navigationBarTitleText": "活动签到",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/sign-in",
+            "style": {
+                "navigationBarTitleText": "扫码页面",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/create-zthd",
+            "style": {
+                "navigationBarTitleText": "发布活动",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/party-day/mb-select", //主题党日模板选择
+            "style": {
+                "navigationBarTitleText": "模板选择",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/secretary-mail/partymember-create",
+            "style": {
+                "navigationBarTitleText": "书记信箱",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "width": "70px",
+                                "text": "我的信箱",
+                                "fontSize": "16px",
+                                "color": "#000000"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/secretary-mail/partymember-list",
+            "style": {
+                "navigationBarTitleText": "我的信箱",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/secretary-mail/secretary-list",
+            "style": {
+                "navigationBarTitleText": "书记信箱",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/owner/my-collection",
+            "style": {
+                "navigationBarTitleText": "我的收藏",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/owner/branch-gfh",
+            "style": {
+                "navigationBarTitleText": "支部规范化建设达标情况",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/owner/member-integral",
+            "style": {
+                "navigationBarTitleText": "积分考核",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/owner/integral-public",
+            "style": {
+                "navigationBarTitleText": "积分公示",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/bwcx",
+            "style": {
+                "navigationBarTitleText": "不忘初心 牢记使命",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                // "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/zdjs",
+            "style": {
+                "navigationBarTitleText": "制度建设",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                // "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/zdjs-detail",
+            "style": {
+                "navigationBarTitleText": "详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                // "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/online-store/list",
+            "style": {
+                "navigationBarTitleText": "先锋商城",
+                "enablePullDownRefresh": true,
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "兑换记录",
+                                "fontSize": "15",
+                                "width": "auto"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/online-store/detail",
+            "style": {
+                "navigationBarTitleText": "商品详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/online-store/record-list",
+            "style": {
+                "navigationBarTitleText": "兑换记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/online-store/record-detail",
+            "style": {
+                "navigationBarTitleText": "商品详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "enablePullDownRefresh": true,
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/vote/vote-list",
+            "style": {
+                "navigationBarTitleText": "投票列表",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/vote/create",
+            "style": {
+                "navigationBarTitleText": "创建投票",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/vote/update",
+            "style": {
+                "navigationBarTitleText": "修改投票",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/vote/setting",
+            "style": {
+                "navigationBarTitleText": "设置",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "保存",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/vote/create-bank",
+            "style": {
+                "navigationBarTitleText": "选择题",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "保存",
+                                "fontSize": "14px",
+                                "color": "#ff4d4d"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/vote/preview",
+            "style": {
+                "navigationBarTitleText": "预览投票",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/vote/statistics",
+            "style": {
+                "navigationBarTitleText": "投票数据统计",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/vote/detail",
+            "style": {
+                "navigationBarTitleText": "投票详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/vote/template",
+            "style": {
+                "navigationBarTitleText": "民主评议党员",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        },
+        {
+            "path": "pages/learn/center/index",
+            "style": {
+                "navigationBarTitleText": "学习中心",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/learn/center/index",
+            "style": {
+                "navigationBarTitleText": "学习中心",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/learn/center/video",
+            "style": {
+                "navigationBarTitleText": "学习详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/learn/center/audio",
+            "style": {
+                "navigationBarTitleText": "学习详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/learn/center/text",
+            "style": {
+                "navigationBarTitleText": "学习详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+        }
+        ,{
+            "path" : "pages/preach/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宣讲员服务",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宣讲员服务",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/release",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布宣讲服务",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/relevance",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "关联宣讲计划",
+               "navigationBarBackgroundColor": "#FFFFFF",
+               "navigationBarTextStyle": "black",
+               "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/detail-start",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "宣讲详情",
+               "navigationBarBackgroundColor": "#FFFFFF",
+               "navigationBarTextStyle": "black",
+               "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/detail-on",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宣讲详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/QR",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到二维码",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/update",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "上传宣讲记录",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/sign",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到情况",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-admin/detail-finish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宣讲详情",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/components/signed",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/components/declare",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/components/imgOrVideo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/preach/preach-user/detail-on",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "宣讲详情",
+               "navigationBarBackgroundColor": "#FFFFFF",
+               "navigationBarTextStyle": "black",
+               "enablePullDownRefresh": true
+            }
+            
+        },{
+            "path" : "pages/preach/preach-user/detail-start",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "宣讲详情",
+               "navigationBarBackgroundColor": "#FFFFFF",
+               "navigationBarTextStyle": "black",
+               "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+		    "path" : "pages/preach/preach-user/detail-finish",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "宣讲详情",
+		        "navigationBarBackgroundColor": "#FFFFFF",
+		        "navigationBarTextStyle": "black",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/preach/preach-user/service",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "宣讲员服务",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+    "globalStyle": {
+        "navigationStyle": "default",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#858A9C",
+        "selectedColor": "#F24133",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/message/message",
+                "iconPath": "static/index-nav/message.png",
+                "selectedIconPath": "static/index-nav/message-active.png",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/info/info",
+                "iconPath": "static/index-nav/info.png",
+                "selectedIconPath": "static/index-nav/info-active.png",
+                "text": "资讯"
+            },
+            {
+                "pagePath": "pages/home/index",
+                "iconPath": "static/index-nav/home.png",
+                "selectedIconPath": "static/index-nav/home-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/learn/index",
+                "iconPath": "static/index-nav/server.png",
+                "selectedIconPath": "static/index-nav/server-active.png",
+                "text": "学习"
+            },
+            {
+                "pagePath": "pages/owner/owner",
+                "iconPath": "static/index-nav/me.png",
+                "selectedIconPath": "static/index-nav/me-active.png",
+                "text": "我的"
+            }
+        ]
+    }
+}
